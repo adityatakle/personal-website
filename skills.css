@@ -1,0 +1,67 @@
+body::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('background_img/Skills.png');
+    z-index: -1;
+  }
+
+  .navigator {
+    color : rgb(250, 250, 250);
+    padding-top: 60px;
+    padding-left: 950px;
+
+}
+a {
+    color : inherit;
+    padding-right: 10px;
+    text-decoration: none;
+
+}
+
+table{
+    margin: 0 auto;
+    text-align: center;
+    padding-top:50px;
+
+}
+
+table td, th {
+    padding:25px;
+}
+
+.progress {
+    width: 150px;
+}
+
+#github-logo {
+    left:4%;
+    width:55px;
+}
+
+#linkedin-logo {
+
+    left:8%;
+    width:55px;
+}
+
+#kaggle-logo {
+
+    left:12%;
+    padding-top:10px;
+    width:120px;
+}
+
+#codechef-logo {
+
+    left:20%;
+    width:150px;
+}
+
+#footer {
+    padding-left:10px;
+}
+
+
+

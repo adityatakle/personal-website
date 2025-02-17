@@ -1,0 +1,68 @@
+body::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('background_img/Contact Me.png');
+    z-index: -1;
+  }
+
+  .navigator {
+    color : rgb(250, 250, 250);
+    padding-top: 50px;
+    padding-left: 60%;
+
+}
+a {
+    color : inherit;
+    padding-right: 15px;
+    text-decoration: none;
+
+}
+
+form {
+    width:300px;
+    margin:0 auto;
+    padding-top:50px;
+    font-size:35px;
+    color:grey;
+}
+
+#text {
+    padding-bottom:10px;
+    padding-top:10px;
+
+}
+
+
+#github-logo {
+    left:4%;
+    width:55px;
+}
+
+#linkedin-logo {
+
+    left:8%;
+    width:55px;
+}
+
+#kaggle-logo {
+
+    left:12%;
+    padding-top:10px;
+    width:120px;
+}
+
+#codechef-logo {
+
+    left:20%;
+    width:150px;
+}
+
+#footer {
+    padding-left:30px;
+    padding-top:115px;
+}
+
+
+
