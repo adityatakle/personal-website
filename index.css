@@ -9,17 +9,21 @@ body::before {
 
 .navigator {
     color : rgb(250, 250, 250);
-    padding-top: 50px;
-    padding-left: 1000px;
+    padding-top: 20px;
+    text-align:right;
 
 }
+
 h2 {
-    font-size:40px;
+    font-size:30px;
 }
+
 a {
     color : inherit;
     padding-right: 10px;
     text-decoration: none;
+
+
 }
 
 #name {
@@ -29,9 +33,8 @@ a {
 
 .main-1 {
     font-size: 90px;
-    padding-left:360px;
-    padding-top:190px;
-    padding-bottom:0px;
+    text-align:center;
+    padding-top:150px;
     line-height:80%;
 
 }
@@ -42,13 +45,11 @@ a {
 }
 
 #linkedin-logo {
-
     left:8px;
     width:55px;
 }
 
 #kaggle-logo {
-
     left:12px;
     padding-top:10px;
     width:120px;
@@ -57,4 +58,8 @@ a {
 #codechef-logo {
     left:20px;
     width:150px;
+}
+
+footer {
+    text-align:bottom;
 }
