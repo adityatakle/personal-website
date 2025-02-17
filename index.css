@@ -35,16 +35,8 @@ a {
     line-height:80%;
 
 }
-#pic {
-    position: fixed;
-    left:750px;
-    top:137px;
-    z-index: -1;
-    border-color:black;
 
-  }
-
-  #github-logo {
+#github-logo {
     left:2px;
     width:55px;
 }
